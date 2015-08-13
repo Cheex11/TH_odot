@@ -2,4 +2,9 @@ after adding rspec in gemfile:
     bundle
     rails generate rspec:install
 
+Add require capy to SPEC_helper
+    bundle binstubs rspec-core
+
+rails generate scaffold todo_list title:string description:text
+
 
