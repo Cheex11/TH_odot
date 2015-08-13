@@ -1,0 +1,5 @@
+after adding rspec in gemfile:
+    bundle
+    rails generate rspec:install
+
+
